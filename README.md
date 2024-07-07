@@ -1,1 +1,2 @@
-# notifgram-aspcore
+# Notifgram-aspcore
+ Asp core backend for Notifgram
