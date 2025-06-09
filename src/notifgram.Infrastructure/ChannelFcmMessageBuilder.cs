@@ -41,7 +41,7 @@ public class ChannelFcmMessageBuilder : MessageBuilderBase
     var channelJson = JsonConvert.SerializeObject(channelDTO);
     var data = new Dictionary<string, string>
     {
-        { FcmKeys.JSON_POST.ToString(), channelJson },
+        { FcmKeys.JSON_CHANNEL.ToString(), channelJson },
     };
     var channelFcmMessage = new Message()
     {
